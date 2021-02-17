@@ -1,0 +1,107 @@
+html {
+    font-size: 20px;
+}
+
+div {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.designA {
+    background-color: aqua;
+} 
+
+.designB {
+    background-color: yellow;
+} 
+
+.designC {
+    background-color: bisque;
+} 
+
+.designD {
+    background-color: cadetblue;
+} 
+
+.designE {
+    background-color: darksalmon;
+} 
+
+.designF {
+    background-color: greenyellow;
+}
+
+#inline{
+    display:inline;
+}
+
+.inline{
+    display:inline;
+}
+
+#fixed {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+}
+
+.spacer {
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+
+.grandparent {
+    /* Positioned after 'normal' position. */
+    /*position: relative;**/
+    /* Positioned after hierachy ancestor. */
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 100px;
+    height: 100px;
+}
+
+.parent {
+    /* Positioned after 'normal' position. */
+    /*position: relative;*/
+    /* Positioned after hierachy ancestor. */
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.child {
+    /* Positioned after 'normal' position.*/
+    /*position: relative;*/
+    /* Positioned after hierachy ancestor. */
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-item1 {
+    flex-grow: 1;       /* Normal size (width). */
+    flex-basis: 300px;  /* Default size of flex-item. */
+    margin: 10px;
+    padding: 20px;
+}
+
+.flex-item2 {
+    flex-grow: 2;       /* Double size (width). */
+    flex-basis: 300px;  /* Default size of flex-item. */
+    margin: 10px;
+    padding: 20px;
+}
